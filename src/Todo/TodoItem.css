@@ -1,0 +1,29 @@
+.todoitem {
+  display: flex;
+  margin: 0 -3rem 4px;
+  padding: 1.1rem 3rem;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.todoitem__info {
+  order: -1;
+}
+
+.todoitem__task {
+  color: whitesmoke;
+  text-align: right;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.todoitem__task.complete {
+  text-decoration: line-through;
+}
+
+.todoitem__task input,
+.todoitem__task button,
+.todoitem button {
+  padding: 10px;
+}
